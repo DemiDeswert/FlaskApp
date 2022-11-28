@@ -6,10 +6,7 @@ import base64
 import io
 import os
 import pathlib
-
 import predict
-from fastai import *
-from fastai.vision import *
 import pickle
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath

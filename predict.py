@@ -1,5 +1,4 @@
-from fastai import *
-from fastai.vision import *
+
 import pickle
 def predict(image):
     model = pickle.load(open('model.pkl', 'rb'))
